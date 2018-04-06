@@ -1,5 +1,5 @@
 var bgAppController = (function () {
-    function bgAppController() {
+    function bgAppController() { 
     }
     bgAppController.start = function ($scope, $timeout, $mdSidenav, $http) {
         $scope.bitCurrencies = commons.bitCurrencies;
